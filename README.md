@@ -1,4 +1,4 @@
-# vite-plugin-theme
+# vite-plugin-theme-vite3
 
 **English** | [中文](./README.zh_CN.md)
 
@@ -15,13 +15,13 @@ After vite processes the css and dynamically analyzes the color value in the css
 **vite version:** >=2.0.0
 
 ```
-yarn add vite-plugin-theme -D
+yarn add vite-plugin-theme-vite3 -D
 ```
 
 or
 
 ```
-npm i vite-plugin-theme -D
+npm i vite-plugin-theme-vite3 -D
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ npm i vite-plugin-theme -D
 import { defineConfig, Plugin } from 'vite';
 import vue from '@vitejs/plugin-vue';
 
-import { viteThemePlugin, mixLighten, mixDarken, tinycolor } from 'vite-plugin-theme';
+import { viteThemePlugin, mixLighten, mixDarken, tinycolor } from 'vite-plugin-theme-vite3';
 
 export default defineConfig({
   plugins: [

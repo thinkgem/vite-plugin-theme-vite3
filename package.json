@@ -1,6 +1,6 @@
 {
-  "name": "vite-plugin-theme",
-  "version": "1.0.4",
+  "name": "vite-plugin-theme-vite3",
+  "version": "1.0.5",
   "description": "Vite plugin for dynamically changing the theme color of the interface",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -28,7 +28,7 @@
     "test": "jest --coverage",
     "test:watch": "jest --watch",
     "install:husky": "is-ci || husky install",
-    "_postinstall": "npm run install:husky",
+    "postinstall": "npm run install:husky",
     "postpublish": "pinst --enable"
   },
   "keywords": [
@@ -38,12 +38,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vbenjs/vite-plugin-theme"
+    "url": "https://github.com/vbenjs/vite-plugin-theme-vite3"
   },
   "bugs": {
-    "url": "https://github.com/vbenjs/vite-plugin-theme/issues"
+    "url": "https://github.com/vbenjs/vite-plugin-theme-vite3/issues"
   },
-  "homepage": "https://github.com/vbenjs/vite-plugin-theme/tree/master/#readme",
+  "homepage": "https://github.com/vbenjs/vite-plugin-theme-vite3/tree/master/#readme",
   "peerDependencies": {
     "vite": ">=3.2.0"
   },

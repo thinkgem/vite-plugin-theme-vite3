@@ -208,7 +208,7 @@ export function antdDarkThemePlugin(opt: AntdDarkThemeOption): PluginOption {
             build: {outDir, assetsDir},
           } = context.viteOptions;
           console.log(
-            colors.cyan('\n✨ [vite-plugin-theme:antd-dark]') +
+            colors.cyan('\n✨ [vite-plugin-theme-vite3:antd-dark]') +
             ` - extract antd dark css code file is successfully:`
           );
           try {

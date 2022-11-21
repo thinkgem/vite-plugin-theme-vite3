@@ -1,4 +1,4 @@
-# vite-plugin-theme
+# vite-plugin-theme-vite3
 
 **中文** | [English](./README.md)
 
@@ -15,13 +15,13 @@
 **vite version:** >=2.0.0
 
 ```
-yarn add vite-plugin-theme -D
+yarn add vite-plugin-theme-vite3 -D
 ```
 
 或者
 
 ```
-npm i vite-plugin-theme -D
+npm i vite-plugin-theme-vite3 -D
 ```
 
 ## 使用
@@ -32,7 +32,7 @@ npm i vite-plugin-theme -D
 import { defineConfig, Plugin } from 'vite';
 import vue from '@vitejs/plugin-vue';
 
-import { viteThemePlugin, mixLighten, mixDarken, tinycolor } from 'vite-plugin-theme';
+import { viteThemePlugin, mixLighten, mixDarken, tinycolor } from 'vite-plugin-theme-vite3';
 
 export default defineConfig({
   plugins: [
